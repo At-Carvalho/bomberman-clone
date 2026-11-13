@@ -2,7 +2,7 @@
 
 A Bomberman-inspired game made with **Python and Pygame**. The project recreates some classic Bomberman mechanics: destructible walls, timed bombs, explosions, and an enemy with basic AI.
 
-## 🎮 Features
+## Features
 
 - Randomly generated maps.
 - Breakable and indestructible walls.
@@ -12,7 +12,7 @@ A Bomberman-inspired game made with **Python and Pygame**. The project recreates
 - Collision detection.
 - Main menu, pause menu, and victory and defeat screens.
 
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -23,44 +23,15 @@ A Bomberman-inspired game made with **Python and Pygame**. The project recreates
 | `SPACE` | Place a bomb / Select menu option |
 | `ESC` | Pause / Resume / Return to main menu |
 
-## ▶️ Download and Run
+## Download and Run
 
-### Windows executable (recommended)
+### Windows
 
-You don't need to install Python or Pygame to run the game.
+1. Go to the [Releases page](https://github.com/At-Carvalho/bomberman-clone/releases).
+2. Download the latest `Bomberman.exe` release.
+3. Open the downloaded file to start playing.
 
-1. Open the repository's [Actions page](https://github.com/At-Carvalho/bomberman-clone/actions).
-2. Select the latest successful **Build Windows executable** workflow run.
-3. Under **Artifacts**, download `Bomberman-Windows`.
-4. Extract the downloaded ZIP file.
-5. Run `Bomberman.exe`.
-
-> Windows may show a SmartScreen warning because the executable is not signed. Only run it if you downloaded it from this repository.
-
-### Run from source
-
-If you prefer to run the Python source code, install [Python 3](https://www.python.org/downloads/) first.
-
-Clone the repository:
-
-```bash
-git clone https://github.com/At-Carvalho/bomberman-clone.git
-cd bomberman-clone
-```
-
-Install the dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-Run the game:
-
-```bash
-python main.py
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```text
 bomberman-clone/
@@ -76,7 +47,7 @@ bomberman-clone/
 └── README.md
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Gameplay settings can be changed in `config.py`, including:
 
