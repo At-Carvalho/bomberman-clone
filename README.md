@@ -50,7 +50,8 @@ Bomberman-Clone/
 
 ### Requirements
 
-Make sure you have Python installed.
+- Python 3
+- Pygame
 
 Install Pygame:
 
@@ -60,16 +61,16 @@ pip install pygame
 
 ### Running the Game
 
-Clone this repository:
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/At-Carvalho/bomberman-clone.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd YOUR-REPOSITORY
+cd bomberman-clone
 ```
 
 Run the game:
@@ -77,7 +78,6 @@ Run the game:
 ```bash
 python main.py
 ```
-
 ## ⚙️ Configuration
 
 Several gameplay parameters can be adjusted in `config.py`, including:
