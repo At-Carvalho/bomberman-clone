@@ -1,18 +1,18 @@
 # 💣 Bomberman Clone
 
-A simple **Bomberman-inspired game** developed in Python using Pygame as a programming project.
+A Bomberman-inspired game built with **Python and Pygame**.
 
-Navigate through a destructible maze, avoid explosions, and defeat the enemy using strategically placed bombs!
+The idea was to recreate some of the classic Bomberman mechanics, including destructible walls, timed bombs, explosions, and an enemy with basic AI.
 
 ## 🎮 Features
 
-- **Procedurally Generated Maps** – Each new game creates a randomly generated map.
-- **Destructible Environments** – Breakable and indestructible walls.
-- **Bomb Mechanics** – Place bombs with a timed detonation system.
-- **Explosion System** – Explosions spread horizontally and vertically, stopping at walls.
-- **Enemy AI** – An enemy that moves around the map, detects threats, avoids explosions, and attempts to attack the player.
-- **Game States** – Main menu, pause menu, victory screen, and defeat screen.
-- **Collision Detection** – Walls and bombs prevent movement.
+- Randomly generated maps.
+- Breakable and indestructible walls.
+- Bombs with timed explosions.
+- Explosions that spread in four directions.
+- Enemy AI with basic movement, attack, and escape behaviors.
+- Collision detection.
+- Main menu, pause menu, and separate victory and defeat screens.
 
 ## 🕹️ Controls
 
@@ -27,20 +27,20 @@ Navigate through a destructible maze, avoid explosions, and defeat the enemy usi
 
 ## 🛠️ Technologies
 
-- **Python 3**
-- **Pygame**
+- Python 3
+- Pygame
 
 ## 📁 Project Structure
 
-The project is organized into five Python files, separating configuration, map generation, game logic, rendering, and the main game loop.
+The project is divided into five Python files to keep the code organized.
 
 ```text
-Bomberman-Clone/
+bomberman-clone/
 │
 ├── main.py       # Main game loop and event handling
-├── config.py     # Game settings, constants, and colors
-├── mapa.py       # Map generation
-├── logica.py     # Bombs, explosions, movement validation and enemy AI
+├── config.py     # Game settings and constants
+├── mapa.py       # Map generation and movement validation
+├── logica.py     # Bombs, explosions, and enemy AI
 ├── desenho.py    # Game rendering and menus
 │
 └── README.md
@@ -48,61 +48,56 @@ Bomberman-Clone/
 
 ## 🚀 Getting Started
 
-### Requirements
+### 1. Install Python 3
 
-- Python 3
-- Pygame
+If you don't have Python installed, download it from the official website:
 
-Install Pygame:
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-```bash
-pip install pygame
-```
+Follow the installation instructions for your operating system.
 
-### Running the Game
+**Windows users:** Make sure to check the *"Add Python to PATH"* option during installation.
 
-Clone the repository:
+### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/At-Carvalho/bomberman-clone.git
 ```
 
-Navigate to the project folder:
+### 3. Navigate to the project folder:
 
 ```bash
 cd bomberman-clone
 ```
 
-Run the game:
+### 4. Install Pygame
+
+```bash
+pip install pygame
+```
+
+### 5. Run the Game
 
 ```bash
 python main.py
 ```
+
 ## ⚙️ Configuration
 
-Several gameplay parameters can be adjusted in `config.py`, including:
+You can change some game settings in `config.py`, such as:
 
-- Map dimensions
-- Tile size
-- Breakable wall spawn rate
-- Bomb explosion timer
-- Explosion duration
-- Bomb range
-- Enemy decision intervals
+- Map dimensions and tile size.
+- Breakable wall spawn rate.
+- Bomb timer and explosion duration.
+- Bomb explosion range.
+- Enemy decision intervals.
 
-## 📚 About the Project
+## 📚 About
 
-This project was developed as part of my learning journey in **Python programming and game development**.
+This is a personal project developed to practice Python and learn more about game development.
 
-The main goal was to practice programming fundamentals, including:
-
-- Modular code organization
-- Functions and data structures
-- Game loops and event handling
-- Collision detection
-- Basic enemy AI
-- Time-based game mechanics
+It was also an opportunity to work with modular code, game loops, event handling, collision detection, and basic enemy AI.
 
 ## 📄 License
 
-This project is open-source. Feel free to explore the code, learn from it, and adapt it for your own projects.
+Feel free to explore the code and use it for learning purposes.
